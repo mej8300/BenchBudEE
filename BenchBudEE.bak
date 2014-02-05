@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "27 jan 2014"
+Date "5 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,10 +45,20 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1100 3050 2200 3600
+S 1100 3250 2200 3600
 U 52E63D44
 F0 "Arduino" 89
 F1 "arduino.sch" 89
+F2 "MOSI" O R 3300 5000 60 
+F3 "MISO" I R 3300 5250 60 
+F4 "SCLK" O R 3300 5500 60 
+F5 "Relay+" O R 3300 6200 60 
+F6 "Relay-" I R 3300 6500 60 
+F7 "CS_N" O R 3300 5700 60 
+F8 "LED_EN" O R 3300 4250 60 
+F9 "LED_FREQ" O R 3300 4450 60 
+F10 "FAN_EN" O R 3300 3600 60 
+F11 "TACH_MEAS" I R 3300 3800 60 
 $EndSheet
 $Sheet
 S 1150 1350 1550 1100

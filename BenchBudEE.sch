@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "27 jan 2014"
+Date "5 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -98,15 +99,20 @@ F4 "String+" O R 7800 3100 60
 F5 "String-" I R 7800 3350 60 
 $EndSheet
 $Sheet
-S 6150 1300 1600 1100
+S 6150 900  1650 1600
 U 52E653B1
 F0 "Fan" 89
 F1 "fan.sch" 89
-F2 "Power+" O R 7750 1600 60 
-F3 "Power-" I R 7750 1800 60 
-F4 "Tach_out" O L 6150 1750 60 
-F5 "Fan_in" I L 6150 1500 60 
-F6 "Tach" I R 7750 2100 60 
+F2 "Power+" O R 7800 1200 60 
+F3 "Power-" I R 7800 1400 60 
+F4 "Tach_out" O L 6150 2200 60 
+F5 "Fan_in" I L 6150 1100 60 
+F6 "Tach" I R 7800 1700 60 
+F7 "Current Measure" O L 6150 2050 60 
+F8 "MOSI" I L 6150 1300 60 
+F9 "MISO" O L 6150 1450 60 
+F10 "CS_N" I L 6150 1600 60 
+F11 "SCLK" I L 6150 1750 60 
 $EndSheet
 $Sheet
 S 8700 1300 900  5400

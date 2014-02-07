@@ -1,4 +1,4 @@
-update=06-02-2014 21:41:39
+update=07-02-2014 11:11:45
 version=1
 last_client=eeschema
 [cvpcb]
@@ -85,3 +85,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=benchBuddy
+LibName32=-12p

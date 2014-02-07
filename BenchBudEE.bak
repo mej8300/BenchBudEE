@@ -30,14 +30,15 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:benchBuddy
+LIBS:-12p
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
-Date "6 feb 2014"
+Date "7 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -120,5 +121,11 @@ S 8700 1300 900  5400
 U 52E653FA
 F0 "Terminal_Block" 89
 F1 "terminal_block.sch" 89
+$EndSheet
+$Sheet
+S 3450 1350 1750 1100
+U 52F4AA4D
+F0 "PowerAdjustmentMonitor" 89
+F1 "powerAdjustmentMonitor.sch" 89
 $EndSheet
 $EndSCHEMATC

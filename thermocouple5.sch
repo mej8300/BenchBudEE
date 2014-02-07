@@ -31,6 +31,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:benchBuddy
 LIBS:-12p
+LIBS:fe_v+
+LIBS:fe_v-
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END

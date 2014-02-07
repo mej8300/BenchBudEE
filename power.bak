@@ -31,6 +31,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:benchBuddy
 LIBS:-12p
+LIBS:fe_v+
+LIBS:fe_v-
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
@@ -377,4 +379,9 @@ Connection ~ 9100 3400
 Wire Wire Line
 	9800 5100 9800 5300
 Connection ~ 9100 5100
+Wire Wire Line
+	2450 2150 1950 2150
+Wire Wire Line
+	1950 2150 1950 2050
+Connection ~ 1950 2050
 $EndSCHEMATC

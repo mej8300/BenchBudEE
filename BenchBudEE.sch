@@ -33,6 +33,7 @@ LIBS:benchBuddy
 LIBS:-12p
 LIBS:fe_v+
 LIBS:fe_v-
+LIBS:ap5726
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
@@ -98,10 +99,9 @@ S 6300 4250 1750 450
 U 52E65386
 F0 "LED_Driver" 89
 F1 "led_driver.sch" 89
-F2 "EN" I L 6300 4400 60 
-F3 "FREQ" I L 6300 4550 60 
-F4 "String+" O R 8050 4400 60 
-F5 "String-" I R 8050 4550 60 
+F2 "String+" O R 8050 4400 60 
+F3 "String-" I R 8050 4550 60 
+F4 "LED_EN_PWM" I L 6300 4450 60 
 $EndSheet
 $Sheet
 S 6300 2550 1700 1450

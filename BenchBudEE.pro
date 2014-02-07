@@ -1,4 +1,4 @@
-update=07-02-2014 16:36:01
+update=07-02-2014 21:14:47
 version=1
 last_client=eeschema
 [cvpcb]
@@ -88,3 +88,4 @@ LibName31=benchBuddy
 LibName32=-12p
 LibName33=fe_v+
 LibName34=fe_v-
+LibName35=ap5726

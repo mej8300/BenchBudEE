@@ -33,6 +33,7 @@ LIBS:benchBuddy
 LIBS:-12p
 LIBS:fe_v+
 LIBS:fe_v-
+LIBS:ap5726
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END

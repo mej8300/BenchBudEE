@@ -34,6 +34,7 @@ LIBS:-12p
 LIBS:fe_v+
 LIBS:fe_v-
 LIBS:ap5726
+LIBS:arduino_pins
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
@@ -41,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
 Title ""
-Date "7 feb 2014"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,9 +51,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 9300 1500 2    60   Output ~ 0
-String+
-Text HLabel 9350 2650 2    60   Input ~ 0
-String-
+LED_STRING+
+Text HLabel 9350 2650 2    60   Output ~ 0
+LED_STRING-
 $Comp
 L AP5726 U?
 U 1 1 52F5405E

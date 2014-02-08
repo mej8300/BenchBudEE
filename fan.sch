@@ -34,6 +34,7 @@ LIBS:-12p
 LIBS:fe_v+
 LIBS:fe_v-
 LIBS:ap5726
+LIBS:arduino_pins
 LIBS:BenchBudEE-cache
 EELAYER 27 0
 EELAYER END
@@ -41,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "7 feb 2014"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,15 +51,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 8450 2300 2    60   Output ~ 0
-Power+
-Text HLabel 8550 3350 2    60   Input ~ 0
-Power-
+FAN_OUT+
+Text HLabel 8500 2750 2    60   Output ~ 0
+FAN_OUT-
 Text HLabel 1200 4100 0    60   Output ~ 0
-Tach_out
+TACH_MEAS
 Text HLabel 1000 2400 0    60   Input ~ 0
-Fan_in
+FAN_EN
 Text HLabel 8650 4100 2    60   Input ~ 0
-Tach
+TACH_IN
 $Comp
 L LM324 U?
 U 1 1 52F2AB7D
@@ -190,11 +191,11 @@ F 3 "" H 2000 1250 60  0000 C CNN
 	1    2000 1250
 	1    0    0    -1  
 $EndComp
-Text HLabel 1600 2750 0    60   Output ~ 0
-Current Measure
+Text HLabel 1200 2750 0    60   Output ~ 0
+CURR_MEAS
 Connection ~ 4400 2750
 Wire Wire Line
-	6750 2750 1600 2750
+	1200 2750 8500 2750
 Wire Wire Line
 	3900 1900 3900 2150
 Wire Wire Line

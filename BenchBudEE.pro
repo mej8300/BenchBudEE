@@ -1,4 +1,4 @@
-update=07-02-2014 21:14:47
+update=08-02-2014 13:36:31
 version=1
 last_client=eeschema
 [cvpcb]
@@ -89,3 +89,4 @@ LibName32=-12p
 LibName33=fe_v+
 LibName34=fe_v-
 LibName35=ap5726
+LibName36=arduino_pins
